@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('digital-voice.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #f2ebeb;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(75, 16, 68, 0.8); 
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.output-area {
+    margin-bottom: 20px;
+}
+
+.output-area textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.audio-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.audio-input button {
+    padding: 10px 20px;
+    background-color: #4cacaf; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.audio-input audio {
+    width: 80%; 
+}
+
+.time-elapsed {
+    font-size: 14px; 
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.playback-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playback-controls input[type="range"] {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+
+.options {
+    margin-bottom: 20px;
+}
+
+.options select {
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-left: 10px; 
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.actions button {
+    padding: 10px 20px;
+    background-color: #d2a24a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #124614; 
+}
+
+textarea#additionalNotes {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+}
